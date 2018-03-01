@@ -1,2 +1,2 @@
 # app-store-scraper-compat
-clone of app-store-scraper compiled with babel to ES2015
+clone of app-store-scraper compiled with babel to ES5
