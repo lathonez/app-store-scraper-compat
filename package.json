@@ -1,0 +1,27 @@
+{
+  "name": "app-store-scraper-compat",
+  "version": "1.0.0",
+  "description": "clone of app-store-scraper compiled with babel to ES2015",
+  "main": "index.js",
+  "dependencies": {
+    "app-store-scraper": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel node_modules/app-store-scraper/index.js -o index.js && babel node_modules/app-store-scraper/lib -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lathonez/app-store-scraper-compat.git"
+  },
+  "author": "Stephen Hazleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lathonez/app-store-scraper-compat/issues"
+  },
+  "homepage": "https://github.com/lathonez/app-store-scraper-compat#readme"
+}
